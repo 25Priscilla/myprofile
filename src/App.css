@@ -1,38 +1,43 @@
+/* src/App.css */
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start; /* Align items to the start (left) of the flex container */
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-info {
+  text-align: left; /* Left align text inside .profile-info */
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-right: 20px; /* Optional: Add some space to the right of the profile pic */
 }
+
+.profile-info h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-info ul li {
+  margin-bottom: 10px;
+}
+
+.profile-info ul li strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
