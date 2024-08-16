@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <div className="resume">
       <div className="profile">
-      <img src="profile-pic.jpg" alt="Profile" className="profile-pic" />
+        <img src="profile-pic.jpg" alt="Profile" className="profile-pic" />
         <h1>Priscilla Rachel Toby</h1>
         <p>Student</p>
       </div>
